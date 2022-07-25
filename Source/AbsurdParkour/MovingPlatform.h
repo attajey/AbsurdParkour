@@ -26,5 +26,6 @@ public:
 	// My Variables
 public:
 	UPROPERTY(EditAnyWhere) FVector MyVector;
+	UPROPERTY(EditAnyWhere) AActor* MyActor;
 
 };
